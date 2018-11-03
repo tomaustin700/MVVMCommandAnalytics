@@ -1,2 +1,2 @@
-# NoteBinder
-A very simple text editor akin to Windows Notepad but with tabs. Built using WPF using MVVM and Prism.
+# WPF Mvvm Base
+A very example showing how to structure a WPF Mvvm application.
