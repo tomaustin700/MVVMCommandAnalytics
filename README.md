@@ -1,2 +1,2 @@
-# WPF Mvvm Base
-A very simple example showing how to structure a WPF Mvvm application.
+# WPF Mvvm Command Analytics
+A very simple example showing how to create a custom command for recording analytics
