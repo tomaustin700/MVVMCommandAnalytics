@@ -10,12 +10,19 @@
              d:DesignHeight="300" d:DesignWidth="300">
 
     <UserControl.InputBindings>
-      
+
     </UserControl.InputBindings>
 
-    
+
 
     <Grid>
-       
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Command1" Command="{Binding Command1}" />
+        <Button Content="Command2" Command="{Binding Command2}" Grid.Column="1" />
+
     </Grid>
 </UserControl>

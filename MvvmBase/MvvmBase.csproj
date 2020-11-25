@@ -73,6 +73,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Classes\BaseNotify.cs" />
+    <Compile Include="Classes\CustomDelegateCommand.cs" />
+    <Compile Include="Classes\CommandData.cs" />
+    <Compile Include="Classes\Telemetry.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\MvvmBaseViewModel.cs" />
     <Compile Include="Views\MvvmBaseView.xaml.cs">

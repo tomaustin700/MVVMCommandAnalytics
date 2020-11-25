@@ -28,15 +28,16 @@ namespace MvvmBase.ViewModels
         #region Constructor
         public MvvmBaseViewModel()
         {
-            SampleCommand = new DelegateCommand(SampleMethod, CanSampleMethod);
-
+            Command1 = new CustomDelegateCommand(SampleMethod, CanSampleMethod, nameof(Command1));
+            Command2 = new CustomDelegateCommand(SampleMethod, CanSampleMethod);
 
         }
         #endregion
 
         #region Commands
-
-        public DelegateCommand SampleCommand { get; set; }
+        
+        public CustomDelegateCommand Command1 { get; set; }
+        public CustomDelegateCommand Command2 { get; set; }
 
 
 
@@ -46,10 +47,15 @@ namespace MvvmBase.ViewModels
 
         public override void Loaded()
         {
-
+            Telemetry.UserId = 1;
         }
 
         void SampleMethod()
+        {
+
+        }
+
+        void TestMethod()
         {
 
         }
